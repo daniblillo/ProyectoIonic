@@ -1,0 +1,50 @@
+<ion-header>
+
+  <script type="module" src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.esm.js"></script>
+  <script nomodule src="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/dist/ionic/ionic.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@ionic/core@4.7.4/css/ionic.bundle.css"/>
+
+  <ion-toolbar>
+    <!--BOTÓN FAVORITOS-->
+    <ion-button color="danger" (click)="favorito()">
+      <ion-icon ios="ios-heart" md="md-heart"></ion-icon>
+    </ion-button>
+
+    <!--BOTÓN BÚSQUEDA-->
+    <ion-button color="warning" (click)="exitUser()">
+      <ion-icon ios="ios-search" md="md-search"></ion-icon>
+    </ion-button>
+
+    <!--BOTÓN CERRAR SESIÓN-->
+    <ion-button (click)="exitUser()">
+      <ion-icon ios="ios-exit" md="md-exit"></ion-icon>
+    </ion-button>
+
+    <ion-title>Inicio</ion-title>
+  </ion-toolbar>  
+
+</ion-header>
+<ion-router-outlet main></ion-router-outlet>
+
+<ion-content padding>
+  <ion-card>
+    <ion-item-sliding *ngFor="let pelis of pelisRooms" >
+   
+      <ion-item lines="inset" button [routerLink]="['/info-pelis', pelis.id]">
+          <ion-img class="img" src={{pelis.img}}></ion-img>
+  
+        <ion-label class="descripcion">
+          <h2><b>{{pelis.Titulo}}</b></h2>
+          <h3>Género: {{pelis.Genero}}</h3>
+          <h3>Duración: {{pelis.Duracion}}</h3>
+          <h3>Descripción: {{pelis.Descripcion}}</h3>
+        </ion-label>
+      </ion-item>
+    </ion-item-sliding>
+  </ion-card>
+
+  <ion-fab-button class='flotante' float-right color="success" slot="fixed"(click)="add()" >
+    <ion-icon class="add" ios="ios-add-circle" md="md-add-circle"></ion-icon>
+  </ion-fab-button>
+
+</ion-content>

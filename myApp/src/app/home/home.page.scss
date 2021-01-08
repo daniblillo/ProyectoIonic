@@ -1,0 +1,39 @@
+.img {
+    width: 60px;
+    height: 100px;
+}
+
+.add {
+    width: 30px;
+    height: 35px;
+}
+
+/** FICHA CONTENEDOR */
+:root {
+    --ion-safe-area-top: 20px;
+    --ion-safe-area-bottom: 22px;
+  }
+  .swiper-slide {
+    display: block;
+  }
+  ion-slide > h2 {
+    margin-top: 2.8rem;
+  }
+  ion-slide > img {
+    max-height: 50%;
+    max-width: 60%;
+    margin: 36px 0;
+  }
+  .flotante {
+    display:scroll;
+    position:fixed;
+    bottom:50px;
+    right:0px;
+}
+  .descripcion{
+    margin-left : 20px;
+  }
+
+  .botones{
+    margin-left : 250px;
+  }

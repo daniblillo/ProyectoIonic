@@ -1,20 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="5eb41d3b-be84-4d31-910e-6f3773103985" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/myApp/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/src/app/add-peliculas/add-peliculas.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/src/app/add-peliculas/add-peliculas.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/src/app/app-routing.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/src/app/app-routing.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/src/app/favoritos/favoritos.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/src/app/favoritos/favoritos.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/src/app/home/home.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/src/app/home/home.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/src/app/home/home.page.scss" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/src/app/home/home.page.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/src/app/home/home.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/src/app/home/home.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/src/app/register/register.page.html" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/src/app/register/register.page.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/src/app/register/register.page.ts" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/src/app/register/register.page.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/src/app/services/auth.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/src/app/services/auth.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/myApp/src/app/services/peliculas.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/myApp/src/app/services/peliculas.service.ts" afterDir="false" />
-    </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="5eb41d3b-be84-4d31-910e-6f3773103985" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,56 +14,22 @@
     <option name="testRunner" value="GRADLE" />
     <option name="delegatedBuild" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="19" />
-    <option name="y" value="51" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
+  <component name="ProjectId" id="1mtDJ5WPbWVNCJk3BqejzcV2gtw" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="gestionVideoclub" type="b2602c69:ProjectViewProjectNode" />
-              <item name="gestionVideoclub" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-    </panes>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="AnalyzeApkAction.lastApkPath" value="$PROJECT_DIR$" />
-    <property name="android.sdk.path" value="C:/androidStudio" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="android.sdk.path" value="$PROJECT_DIR$/../../../../../../../androidStudio" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="android.sdk-updates" />
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -88,24 +44,24 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.3296131" />
-      <window_info id="Structure" side_tool="true" />
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="Resources Explorer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info id="Captures" order="0" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="TODO" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Palette&#9;" />
-    </layout>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+      <path value="$PROJECT_DIR$/myApp" />
+    </ignored-roots>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610304064128">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1610304064128" />
+    <state x="92" y="92" width="1736" height="856" key="AVDManager" timestamp="1610304280249">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="AVDManager/0.0.1920.1040@0.0.1920.1040" timestamp="1610304280249" />
+    <state x="461" y="165" key="SettingsEditor" timestamp="1610303966536">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1610303966536" />
   </component>
 </project>
